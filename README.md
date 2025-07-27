@@ -1,16 +1,55 @@
-# time_app
+# ⏰ Time App
 
-A new Flutter project.
+A Flutter-based mobile application built using Dart. This app is designed with essential features like time tracking, profile management, and in-app messaging. It also includes a full onboarding and authentication flow.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Home Screen
+  - Check In / Check Out functionality
+  - Profile Card
+  - Pickup & Dropoff section
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 👤 Profile Screen
+- 💬 Message Screen
+- 🚀 Onboarding Flow
+  - Welcome Screen
+  - Sign Up / Sign In
+  - Forgot Password
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📱 Screenshots
+
+| Home | Profile | Message | Authentication |
+|------|---------|---------|----------------|
+| ![Home](https://github.com/khushiakter10/time_app/blob/main/screenshorts_time_app/Screenshot_20250727_153718.png) | ![Profile](https://github.com/khushiakter10/time_app/blob/main/screenshorts_time_app/Screenshot_20250727_154017.png) | ![Message](https://github.com/khushiakter10/time_app/blob/main/screenshorts_time_app/Screenshot_20250727_154728.png) | ![Auth](https://github.com/khushiakter10/time_app/blob/main/screenshorts_time_app/Screenshot_20250727_154830.png) |
+
+---
+
+## 🧑‍💻 Author
+
+**MST. Khushi Akter**  
+Flutter Developer with Dart  
+[GitHub Profile »](https://github.com/khushiakter10)
+
+---
+
+## 🚧 Project Status
+
+This project is currently in development. More features and enhancements will be added soon.
+
+---
+
+## 🛠️ Tech Stack
+
+- Flutter 3.x
+- Dart
+- Firebase (Optional, if used for auth)
+- Shared Preferences / Local DB (Optional)
+
+---
+
+## 📂 Project Structure
+
