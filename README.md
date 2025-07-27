@@ -22,7 +22,7 @@ A Flutter-based mobile application built using Dart. This app is designed with e
 
 ## 📱 Screenshots
 
-| Home | Profile | Message | Authentication |
+| Home | Profile | Message | Notification |
 |------|---------|---------|----------------|
 | ![Home](https://github.com/khushiakter10/time_app/blob/main/screenshorts_time_app/Screenshot_20250727_153718.png) | ![Profile](https://github.com/khushiakter10/time_app/blob/main/screenshorts_time_app/Screenshot_20250727_154017.png) | ![Message](https://github.com/khushiakter10/time_app/blob/main/screenshorts_time_app/Screenshot_20250727_154728.png) | ![Auth](https://github.com/khushiakter10/time_app/blob/main/screenshorts_time_app/Screenshot_20250727_154830.png) |
 
