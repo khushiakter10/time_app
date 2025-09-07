@@ -4,7 +4,6 @@ import '../feature/auth/presentation/country_picker_screen.dart';
 import '../feature/auth/presentation/log_in_screen.dart';
 import '../feature/auth/presentation/sign_up_screen.dart';
 import '../feature/auth/presentation/verification_screen.dart';
-import '../feature/home/presentation/message_screen.dart';
 import '../feature/home/presentation/edit_profile_screen.dart';
 import '../feature/home/presentation/history_screen.dart';
 import '../feature/home/presentation/home_screen.dart';
@@ -13,7 +12,6 @@ import '../feature/home/presentation/offline_screen.dart';
 import '../feature/home/presentation/profile_screen.dart';
 import '../feature/onbording/presentation/step_two_screen.dart';
 import '../loading_screen.dart';
-import '../navigation_screen.dart';
 import '../onboard_screen.dart';
 
 final class Routes {
@@ -47,11 +45,11 @@ final class RouteGenerator {
         return Platform.isAndroid
             ? _FadedTransitionRoute(widget: const Loading(), settings: settings)
             : CupertinoPageRoute(builder: (context) => const Loading());
-
-      case Routes.navigationScreen:
-        return Platform.isAndroid
-            ? _FadedTransitionRoute(widget: NavigationScreen(), settings: settings)
-            : CupertinoPageRoute(builder: (context) => NavigationScreen());
+      //
+      // case Routes.navigationScreen:
+      //   return Platform.isAndroid
+      //       ? _FadedTransitionRoute(widget: NavigationScreen(), settings: settings)
+      //       : CupertinoPageRoute(builder: (context) => NavigationScreen());
 
  case Routes.onboardScreen:
         return Platform.isAndroid
